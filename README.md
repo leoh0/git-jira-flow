@@ -1,6 +1,8 @@
 git-jira-flow
 =============
 
+folked from [localmed]
+
 Git extension that uses the jira-cli to match git and jira workflows.
 
 Installation
@@ -11,14 +13,14 @@ Installation
 The easiest way to install is to use homebrew:
 
 ``` bash
-$ brew tap localmed/tap
+$ brew tap leoh0/tap
 $ brew install git-jira-flow
 ```
 
 ### Manual Installation
 
 ``` bash
-$ git clone git@github.com:localmed/git-jira-flow.git
+$ git clone git@github.com:leoh0/git-jira-flow.git
 $ cd git-jira-flow
 $ sudo make install
 ```
@@ -48,7 +50,7 @@ And optionally:
 
 [jiraflow "development"]
   branch = develop
-  
+
 [jiraflow "master"]
   branch = master
 ```
@@ -61,3 +63,5 @@ $ git issue start [<issuekey>] [-b <branchname>] [-H]
 $ git issue finish [<issuekey>] [-H]
 $ git issue help
 ```
+
+[localmed]:https://github.com/localmed/homebrew-tap

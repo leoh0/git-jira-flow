@@ -74,7 +74,7 @@ function load_jira_config() {
     fi
 
     JIRA_CLI=$(_get_git_config jira.cli "jira")
-    JIRA_DEVELOPMENT_BRANCH=$(_get_git_config jiraflow.development.branch "development")
+    JIRA_DEVELOPMENT_BRANCH=$(_get_git_config jiraflow.development.branch "develop")
     JIRA_DEVELOPMENT_REMOTE=$(_get_git_config jiraflow.development.remote "origin")
     JIRA_MASTER_BRANCH=$(_get_git_config jiraflow.master.branch "master")
     JIRA_MASTER_REMOTE=$(_get_git_config jiraflow.master.remote "origin")
